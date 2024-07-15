@@ -7,3 +7,18 @@ This is a list in markdown:
 - One
 - Two
 - Three
+
+Include, should be hidden:
+
+```twoslash include main
+export const hello = { str: "world" };
+```
+
+Twoslashed, should be shown, with the content above injected:
+
+```ts twoslash
+// @include: main
+
+hello.
+//    ^|
+```
