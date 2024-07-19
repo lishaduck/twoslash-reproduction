@@ -24,6 +24,12 @@ const withMDX = createMdx({
           transformers: [
             transformerTwoslash({
               explicitTrigger: true,
+              onTwoslashError: (error, code) => {
+                console.error(error, code);
+              },
+              onShikiError: (error, code) => {
+                console.error(error, code);
+              },
             }),
           ],
         },
