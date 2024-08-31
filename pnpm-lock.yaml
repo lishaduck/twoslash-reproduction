@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@mdx-js/loader':
     specifier: ^3.0.1
-    version: 3.0.1(webpack@5.93.0)
+    version: 3.0.1(webpack@5.94.0)
   '@mdx-js/react':
     specifier: ^3.0.1
     version: 3.0.1(@types/react@18.3.3)(react@18.3.1)
@@ -89,14 +89,14 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: false
 
-  /@mdx-js/loader@3.0.1(webpack@5.93.0):
+  /@mdx-js/loader@3.0.1(webpack@5.94.0):
     resolution: {integrity: sha512-YbYUt7YyEOdFxhyuCWmLKf5vKhID/hJAojEUnheJk4D8iYVLFQw+BAoBWru/dHGch1omtmZOPstsmKPyBF68Tw==}
     peerDependencies:
       webpack: '>=5'
     dependencies:
       '@mdx-js/mdx': 3.0.1
       source-map: 0.7.4
-      webpack: 5.93.0
+      webpack: 5.94.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -157,7 +157,7 @@ packages:
       '@mdx-js/react':
         optional: true
     dependencies:
-      '@mdx-js/loader': 3.0.1(webpack@5.93.0)
+      '@mdx-js/loader': 3.0.1(webpack@5.94.0)
       '@mdx-js/react': 3.0.1(@types/react@18.3.3)(react@18.3.1)
       source-map: 0.7.4
     dev: false
@@ -280,20 +280,6 @@ packages:
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
     dependencies:
       '@types/ms': 0.7.34
-    dev: false
-
-  /@types/eslint-scope@3.7.7:
-    resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
-    dependencies:
-      '@types/eslint': 8.56.10
-      '@types/estree': 1.0.5
-    dev: false
-
-  /@types/eslint@8.56.10:
-    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
-    dependencies:
-      '@types/estree': 1.0.5
-      '@types/json-schema': 7.0.15
     dev: false
 
   /@types/estree-jsx@1.0.5:
@@ -628,8 +614,8 @@ packages:
     resolution: {integrity: sha512-VY+J0e4SFcNfQy19MEoMdaIcZLmDCprqvBtkii1WTCTQHpRvf5N8+3kTYCgL/PcntvwQvmMJWTuDPsq+IlhWKQ==}
     dev: false
 
-  /enhanced-resolve@5.17.0:
-    resolution: {integrity: sha512-dwDPwZL0dmye8Txp2gzFmA6sxALaSvdRDjPH0viLcKrtlOL3tw62nWWweVD1SdILDTJrbrL6tdWVN58Wo6U3eA==}
+  /enhanced-resolve@5.17.1:
+    resolution: {integrity: sha512-LMHl3dXhTcfv8gM4kEzIUeTQ+7fpdA0l2tUf34BddXPkz2A5xJ5L/Pchd5BL6rdccM9QGvu0sWZzK1Z1t4wwyg==}
     engines: {node: '>=10.13.0'}
     dependencies:
       graceful-fs: 4.2.11
@@ -1792,7 +1778,7 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /terser-webpack-plugin@5.3.10(webpack@5.93.0):
+  /terser-webpack-plugin@5.3.10(webpack@5.94.0):
     resolution: {integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -1813,7 +1799,7 @@ packages:
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
       terser: 5.31.2
-      webpack: 5.93.0
+      webpack: 5.94.0
     dev: false
 
   /terser@5.31.2:
@@ -1970,8 +1956,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /webpack@5.93.0:
-    resolution: {integrity: sha512-Y0m5oEY1LRuwly578VqluorkXbvXKh7U3rLoQCEO04M97ScRr44afGVkI0FQFsXzysk5OgFAxjZAb9rsGQVihA==}
+  /webpack@5.94.0:
+    resolution: {integrity: sha512-KcsGn50VT+06JH/iunZJedYGUJS5FGjow8wb9c0v5n1Om8O1g4L6LjtfxwlXIATopoQu+vOXXa7gYisWxCoPyg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -1980,7 +1966,6 @@ packages:
       webpack-cli:
         optional: true
     dependencies:
-      '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.5
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/wasm-edit': 1.12.1
@@ -1989,7 +1974,7 @@ packages:
       acorn-import-attributes: 1.9.5(acorn@8.12.1)
       browserslist: 4.23.2
       chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.17.0
+      enhanced-resolve: 5.17.1
       es-module-lexer: 1.5.4
       eslint-scope: 5.1.1
       events: 3.3.0
@@ -2001,7 +1986,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(webpack@5.93.0)
+      terser-webpack-plugin: 5.3.10(webpack@5.94.0)
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
